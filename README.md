@@ -1,5 +1,4 @@
 
-markdown
 # My Flask Blog
 
 This is a simple Flask blog application with user authentication, CRUD operations for blog posts, and comment functionality. Users can register, log in, create, edit, and delete their blog posts. They can also comment on blog posts.
