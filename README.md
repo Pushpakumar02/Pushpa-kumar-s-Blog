@@ -40,6 +40,20 @@ To run this application locally, follow these steps:
 
 6. Open your web browser and go to [http://127.0.0.1:5000](http://127.0.0.1:5000) to view the application.
 
+## Tech Stack
+
+- **Frontend:**
+  - HTML
+  - CSS
+  - Bootstrap
+
+- **Backend:**
+  - Python
+  - Flask
+
+- **Database:**
+  - PostgreSQL
+
 ## Dependencies
 
 - Bootstrap_Flask==2.3.3
