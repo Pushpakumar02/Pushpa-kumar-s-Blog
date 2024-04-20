@@ -66,5 +66,5 @@ To interact with the blog, users need to log in to comment on blog posts. If you
 ## Credits
 
 This project is part of the 100 Days of Code course by Angela Yu on Udemy. You can find Angela Yu's course repository [here](https://github.com/appbrewery/100-days-of-python).
-```
+
 
