@@ -14,11 +14,11 @@ import os
 # Optional: add contact me email functionality (Day 60)
 import smtplib
 
-MY_EMAIL = os.environ.get('MY_MAIL') #"pushpakumarpushpakumar70@gmail.com" 
-PASSWORD =  os.environ.get('PASSWORD') #"thpx ynll qwen mmjx"
+MY_EMAIL = os.environ.get('MY_MAIL')
+PASSWORD =  os.environ.get('PASSWORD') 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ.get('FLASK_KEY') #"8BYkEfBA6O6donzWlSihBXox7C0sKR6b" 
+app.config['SECRET_KEY'] = os.environ.get('FLASK_KEY') 
 ckeditor = CKEditor(app)
 Bootstrap5(app)
 
