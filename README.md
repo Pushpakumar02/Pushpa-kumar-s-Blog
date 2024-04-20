@@ -1,5 +1,5 @@
 
-```markdown
+markdown
 # My Flask Blog
 
 This is a simple Flask blog application with user authentication, CRUD operations for blog posts, and comment functionality. Users can register, log in, create, edit, and delete their blog posts. They can also comment on blog posts.
@@ -66,6 +66,6 @@ To interact with the blog, users need to log in to comment on blog posts. If you
 
 ## Credits
 
-This project is part of the 100 Days of Code course by Angela Yu on Udemy. You can find Angela Yu's course repository [here](https://github.com/appbrewery/100-days-of-code).
+This project is part of the 100 Days of Code course by Angela Yu on Udemy. You can find Angela Yu's course repository [here](https://github.com/appbrewery/100-days-of-python).
 ```
 
