@@ -52,7 +52,7 @@ To run this application locally, follow these steps:
   - Flask
 
 - **Database:**
-  - PostgreSQL
+  - SQLite
 
 ## Dependencies
 
