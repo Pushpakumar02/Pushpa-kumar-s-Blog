@@ -48,7 +48,7 @@ class Base(DeclarativeBase):
     pass
 
 
-app.config['SQLALCHEMY_DATABASE_URI'] =  'sqlite:///posts.db' #"postgresql://pushpakumars_blog_user:gul7KeCXXAR3BppRQANOVPv6y29cQ1wR@dpg-coho1hgl5elc73cr6oj0-a/pushpakumars_blog" #os.environ.get("DB_URI", "sqlite:///posts.db")
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DB_URI", "sqlite:///posts.db") #'sqlite:///posts.db' #"postgresql://pushpakumars_blog_user:gul7KeCXXAR3BppRQANOVPv6y29cQ1wR@dpg-coho1hgl5elc73cr6oj0-a/pushpakumars_blog" #
 db = SQLAlchemy(model_class=Base)
 db.init_app(app)
 
